@@ -119,6 +119,7 @@ public class Main {
 
         default void log(String str){
             System.out.println("Метод по умолчанию. Логгируем: " + str);
+            System.out.println();
         }
     }
 }
